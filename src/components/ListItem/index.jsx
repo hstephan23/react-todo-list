@@ -1,10 +1,10 @@
-function ListItem() {
+function ListItem(props) {
+
+
 
     return (
         <>
-            <ul>
-                <li></li>
-            </ul>
+            <p>{props.listItem}</p>
             <button>Complete</button>
             <button>Delete</button>
         </>
